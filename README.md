@@ -1,71 +1,111 @@
 # the-calculator
-Simple &amp; elegant react based calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Microverse React Project.
 
-## Available Scripts
+<p align="right">
+  <br>
+  <a href="https://github.com/ricardovaltierra/the-calculator">Explore the repo »</a>
+  <br>
+  <a href="https://github.com/ricardovaltierra/the-calculator/issues">Request Feature</a>
+</p>
 
-In the project directory, you can run:
+## Table of Contents
 
-### `yarn start`
+* [About the Project](#about-the-project)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [Preview](#preview)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* [Built With](#built-with)
 
-### `yarn test`
+* [Getting Started](#getting-started)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [How it Works](#how-it-works)
 
-### `yarn build`
+* [Contributing](#contributing)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Contact](#contact)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* [MIT License](#mit-license)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [Creative Commons License](#creative-commons-license)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## About The Project
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Simple &amp; elegant React-based calculator fully-functional & user-friendly.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Preview
+### Save your day with basic operations for your daily tasks
+`pending**`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+> [Live Version](https://the-calculator.herokuapp.com/)
 
-## Learn More
+Feel free to use and recommend it.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Built With
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* [node](https://nodejs.org/en/)
 
-### Code Splitting
+* [react-create-app](https://reactjs.org/docs/create-a-new-react-app.html)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3)
 
-### Analyzing the Bundle Size
+* [ES6](https://es6.io/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+* [npm](https://www.npmjs.com/)
 
-### Making a Progressive Web App
+* npm Packages used:
+    * [big.js](https://github.com/MikeMcl/big.js/)
+    * [prop-types](https://www.npmjs.com/package/prop-types)
+    * [ReactDOM](https://reactjs.org/docs/react-dom.html)
+    * [React](https://reactjs.org/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Getting Started
 
-### Advanced Configuration
+To get a local copy up and running follow these simple steps.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Clone or fork the <a href="https://github.com/ricardovaltierra/the-calculator">repo</a> [git@github.com:ricardovaltierra/the-calculator.git].
 
-### Deployment
+*note you need have install npm or yarn.
+* [npm](https://www.npmjs.com/get-npm)
+* [yarn](https://classic.yarnpkg.com/en/docs/install)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## How it Works
 
-### `yarn build` fails to minify
+This webpage is built on ES6 & React basis. All of the resources (images, fonts) and .js files are located inside `/src` folder.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Running the code
+
+
+*   Navigate to the root directory of the project.
+
+*   Run this command on your terminal to add all the required packages and dependencies.
+    ```
+    $ npm install
+    ```
+*   Now you can run and play with it. This will redirect your browser to `http://localhost:3000`
+    ```
+    $ npm start
+    ```
+    
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project.
+
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
+
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+
+4. Push to the Branch (`git push origin feature/AmazingFeature`).
+
+5. Open a Pull Request.
+
+## Contact
+
+Ricardo Valtierra - [@RicardoValtie15](https://twitter.com/RicardoValtie15) - ricardo_valtierra@outlook.com  - [linkedin.com/in/ricardovaltierra/](https://www.linkedin.com/in/ricardovaltierra/)
+
+## MIT License
+
+This project is under the [MIT](LICENSE) license.
