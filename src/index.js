@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Big from 'big.js';
 import './index.css';
 
-let x = new Big(123.4567);
+let x = new Big(123.45678);
 
 const number = `My first big number is: ${x}`;
 
