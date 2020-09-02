@@ -1,0 +1,27 @@
+@import './reset.scss';
+@import './App.scss';
+@import './Body.scss';
+
+.flex-cont {
+  display: flex;
+}
+
+#app {
+  position: relative;
+  width: 700px;
+}
+
+#display {
+  background: #848492;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  text-align: right;
+}
+
+.row {
+  position: relative;
+  height: 100px;
+  background: yellow;
+}
+
