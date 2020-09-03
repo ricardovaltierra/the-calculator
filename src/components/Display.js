@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 const Display = props => {
   const { result } = props;
   return (
-    <div>{result}</div>
+    <div id="display" className="flex-cont">
+      <p>{result}</p>
+    </div>
   );
 };
 
