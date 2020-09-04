@@ -9,15 +9,13 @@ function operate(numberOne, numberTwo, operation) {
       return num1.plus(num2).toString();
     case '-':
       return num1.minus(num2).toString();
-    case '*':
+    case 'X':
       return num1.times(num2).toString();
-    case '/':
+    case '÷':
       if (num2 > 0) return num1.div(num2).toString();
-      return 'Zero division not allowed.';
-
+      return 'Zero div not allowed.';
     case '%':
-      if (!num2) return num1.times(num2).div(100).toString();
-      return num1.div(100).toString();
+      return num1.times(num2).div(100).toString();
     default:
       return 'Operation not allowed';
   }
