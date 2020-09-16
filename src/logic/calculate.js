@@ -9,8 +9,14 @@ function calculate(calculator, name) {
       operation = null;
       break;
     case '+/-':
-      if (total) total *= -1;
-      if (next) next *= -1;
+      if (total) {
+        total *= -1;
+        total = total.toString();
+      }
+      if (next) {
+        next *= -1;
+        next = next.toString();
+      }
       break;
     case '%':
     case '÷':
@@ -18,25 +24,25 @@ function calculate(calculator, name) {
     case '-':
     case '+':
       if (next && operation) {
-        if (!total) break;
         total = operate(total, next, operation);
         next = null;
       }
       operation = name;
       break;
     case '.':
-      if (total && !total.split('').includes('.')) total += '.';
-      else if (next && !next.split('').includes('.')) next += '.';
-      else next = `${0}.`;
+      if (next && !next.split('').includes('.')) next += '.';
+      else if (total && !total.split('').includes('.')) total += '.';
+      else total = `${0}.`;
       break;
     case '=':
+      if (operation === '%' && next == null) next = 1;
       if (total && operation && next) total = operate(total, next, operation);
       next = null;
       operation = null;
       break;
     default:
-      if (operation) next = next ? name : next + name;
-      else total = total ? name : total + name;
+      if (operation) next = next ? next + name : name;
+      else total = total ? total + name : name;
       break;
   }
 
